@@ -1,9 +1,9 @@
 name: Semgrep
 on:
     push:
-    branches:
-        - main
-        - test
+        branches:
+            - main
+            - test
 jobs:
     semgrep:
         name: semgrep/ci
